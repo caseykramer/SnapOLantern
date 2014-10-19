@@ -49,9 +49,9 @@ void sweepAndReset() {
   
   // Open slowly
   while(pos < max_pos) {
-    pos = pos + 10;
+    pos = pos + 5;
     myservo.write(pos);
-    delay(200);
+    delay(100);
   }
   
   // then snap shut
